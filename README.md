@@ -1,0 +1,2 @@
+# sssttteeelllaaagggeee
+РПМ типа
