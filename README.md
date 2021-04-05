@@ -15,6 +15,5 @@ ___
 2. 
 3. 
 ##### Управление LED-лентой:
-1. 
-2. 
-3. 
+1. https://github.com/adafruit/Adafruit_NeoPixel
+2. https://github.com/FastLED/FastLED
