@@ -1,0 +1,16 @@
+<?php
+	if (!(isset ($_COOKIE["LOG"]))) {
+		echo"Please, log in!<br /><br />";
+		echo"<input type='text' name='login'<br />";
+		echo"<input type='submit' name='password'<br />";
+		echo"<input type='submit' value='Sign in'/><br />";
+		echo"</form>";
+	}
+	if(isset($_GET['login'])&&isset($_GET['password'])){
+		$login = $_GET['login'];
+		$password = $_GET['password'];
+		setcookie("LOG",$login,time()+60*10,'/')
+		setcookie("PAS",$password,time()+60*10,'/')
+	}
+	
+	if (isset ($_COOKIE["LOG"]) && !(isset ($_COOKIE["PAS"]))) {
