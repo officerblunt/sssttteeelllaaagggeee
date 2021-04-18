@@ -11,11 +11,8 @@ ___
 ##### Генерация (распознавание) штр/qr-кода:
 1. https://docs.aspose.com/barcode/cpp/
 2. https://github.com/aspose-barcode/Aspose.Barcode-for-C
-3. 
 ##### Распознавание штр/qr-кода:
 1. https://github.com/opencv/opencv
-2. 
-3. 
 ##### Управление LED-лентой:
 1. https://github.com/adafruit/Adafruit_NeoPixel
 2. https://github.com/FastLED/FastLED
