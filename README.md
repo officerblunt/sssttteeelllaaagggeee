@@ -13,6 +13,7 @@ ___
 2. https://github.com/aspose-barcode/Aspose.Barcode-for-C
 ##### Распознавание штр/qr-кода:
 1. https://github.com/opencv/opencv
+2. https://github.com/dmtx/libdmtx
 ##### Управление LED-лентой:
 1. https://github.com/adafruit/Adafruit_NeoPixel
 2. https://github.com/FastLED/FastLED
