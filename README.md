@@ -19,20 +19,20 @@ ___
 
 2. Любыми средствами (командная строка, Workbench, phpMyAdmin, etc.) восстановите БД из дампа "cpp_led_control"
 
-3. В командной строке запустите:
+3. В командной выполните следующие команды:
 
-   ```python
+   ```
    pip install mysql-connector-python
    ```
 
 4.  Проверьте соединение с помощью:
 
-   ```
-   python
-   import mysql.connector
-   connection = mysql.connector.connect(user='root', password='*', host='*', database='cpp_led_control')
-   print(connection.is_connected())
-   ```
+      ```
+      python
+      import mysql.connector
+      connection = mysql.connector.connect(user='root', password='*', host='*', database='cpp_led_control')
+      print(connection.is_connected())
+      ```
 
    - В зависимости от метода установки MySQL поля `password` и `host` будут различатся. Вот некоторые рекомендации:
    - Стандартные значения для XAMPP -  `password="", host="localhost"`
